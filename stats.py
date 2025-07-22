@@ -47,5 +47,4 @@ def sort_by_count(character_counts):
 #        char_stats["num"] 
     char_stats.sort(reverse=True,key=sort_on)
     for result in char_stats:
-        print (f"{result["char"]}: {result["num"]}" )
-
+        print (f"{result["char"]}: {result["num"]}" )    
