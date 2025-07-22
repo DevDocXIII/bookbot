@@ -17,7 +17,7 @@ def get_number_of_each_character(path_to_file):
         for word in words:
             for char in word:
                 char = char.lower()
-                if char.isalph:
+                if char.isalpha():
                     if char in character_counts:
                         character_counts[char] += 1
                     else:
